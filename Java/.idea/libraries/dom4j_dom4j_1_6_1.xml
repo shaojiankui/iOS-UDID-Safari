@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="dom4j:dom4j:1.6.1" type="repository">
+    <properties maven-id="dom4j:dom4j:1.6.1" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/dom4j-1.6.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/xml-apis-1.0.b2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
