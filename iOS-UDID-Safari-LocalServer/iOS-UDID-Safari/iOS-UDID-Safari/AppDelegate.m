@@ -32,6 +32,9 @@
         
         NSDictionary *plist = [NSPropertyListSerialization propertyListWithData:[plistString dataUsingEncoding:NSISOLatin1StringEncoding] options:NSPropertyListImmutable format:nil error:nil];
         
+        UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"获取设备信息成功" message:[plist description] delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil];
+        [alert show];
+        
         NSLog(@"device info%@",plist);
         SFWebServerRespone *response = [[SFWebServerRespone alloc]initWithHTML:@"success"];
         //值得注意的是重定向一定要使用301重定向,有些重定向默认是302重定向,这样就会导致安装失败,设备安装会提示"无效的描述文件
