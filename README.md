@@ -195,6 +195,10 @@ UDID:<input style="width:300px;" name="" value="<?php echo $UDID;?>" />
 
 **值得注意的是重定向一定要使用301重定向,有些重定向默认是302重定向,这样就会导致安装失败,设备安装会提示"无效的描述文件
 **
+## 源码说明
+- PHP文件夹为使用PHP作为服务端获取UDID
+- JAVA文件夹为使用PHP作为服务端获取UDID
+- iOS-UDID-Safari-LocalServer文件夹为使用iOS内置服务器作为服务端获取UDID，有点小bug
 
 ## 参考链接:
 

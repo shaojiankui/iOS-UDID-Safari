@@ -13,9 +13,14 @@
 		A23D6D731EF5825D0043603F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A23D6D721EF5825D0043603F /* Assets.xcassets */; };
 		A23D6D761EF5825D0043603F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A23D6D741EF5825D0043603F /* LaunchScreen.storyboard */; };
 		A23D6D791EF5825D0043603F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A23D6D781EF5825D0043603F /* main.m */; };
-		A23D6D861EF5826F0043603F /* Documentation.html in Resources */ = {isa = PBXBuildFile; fileRef = A23D6D811EF5826F0043603F /* Documentation.html */; };
-		A23D6D871EF5826F0043603F /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = A23D6D821EF5826F0043603F /* GCDAsyncUdpSocket.m */; };
-		A23D6D881EF5826F0043603F /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = A23D6D831EF5826F0043603F /* GCDAsyncSocket.m */; };
+		B8F7DAC71EF75FBC00BD1AD5 /* Documentation.html in Resources */ = {isa = PBXBuildFile; fileRef = B8F7DAC21EF75FBC00BD1AD5 /* Documentation.html */; };
+		B8F7DAC81EF75FBC00BD1AD5 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = B8F7DAC41EF75FBC00BD1AD5 /* GCDAsyncSocket.m */; };
+		B8F7DAC91EF75FBC00BD1AD5 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = B8F7DAC61EF75FBC00BD1AD5 /* GCDAsyncUdpSocket.m */; };
+		B8F7DAF41EF760C000BD1AD5 /* SFWebServer.m in Sources */ = {isa = PBXBuildFile; fileRef = B8F7DAF31EF760C000BD1AD5 /* SFWebServer.m */; };
+		B8F7DAF71EF7611300BD1AD5 /* SFWebServerRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = B8F7DAF61EF7611300BD1AD5 /* SFWebServerRouter.m */; };
+		B8F7DAFA1EF7614300BD1AD5 /* SFWebServerRespone.m in Sources */ = {isa = PBXBuildFile; fileRef = B8F7DAF91EF7614300BD1AD5 /* SFWebServerRespone.m */; };
+		B8F7DAFD1EF7614D00BD1AD5 /* SFWebServerRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B8F7DAFC1EF7614D00BD1AD5 /* SFWebServerRequest.m */; };
+		B8F7DAFF1EF766A900BD1AD5 /* udid.mobileconfig in Resources */ = {isa = PBXBuildFile; fileRef = B8F7DAFE1EF766A900BD1AD5 /* udid.mobileconfig */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,11 +34,20 @@
 		A23D6D751EF5825D0043603F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A23D6D771EF5825D0043603F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A23D6D781EF5825D0043603F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A23D6D811EF5826F0043603F /* Documentation.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Documentation.html; sourceTree = "<group>"; };
-		A23D6D821EF5826F0043603F /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
-		A23D6D831EF5826F0043603F /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
-		A23D6D841EF5826F0043603F /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
-		A23D6D851EF5826F0043603F /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		B8F7DAC21EF75FBC00BD1AD5 /* Documentation.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Documentation.html; sourceTree = "<group>"; };
+		B8F7DAC31EF75FBC00BD1AD5 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		B8F7DAC41EF75FBC00BD1AD5 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		B8F7DAC51EF75FBC00BD1AD5 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		B8F7DAC61EF75FBC00BD1AD5 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		B8F7DAF21EF760C000BD1AD5 /* SFWebServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFWebServer.h; sourceTree = "<group>"; };
+		B8F7DAF31EF760C000BD1AD5 /* SFWebServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFWebServer.m; sourceTree = "<group>"; };
+		B8F7DAF51EF7611300BD1AD5 /* SFWebServerRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFWebServerRouter.h; sourceTree = "<group>"; };
+		B8F7DAF61EF7611300BD1AD5 /* SFWebServerRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFWebServerRouter.m; sourceTree = "<group>"; };
+		B8F7DAF81EF7614300BD1AD5 /* SFWebServerRespone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFWebServerRespone.h; sourceTree = "<group>"; };
+		B8F7DAF91EF7614300BD1AD5 /* SFWebServerRespone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFWebServerRespone.m; sourceTree = "<group>"; };
+		B8F7DAFB1EF7614D00BD1AD5 /* SFWebServerRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFWebServerRequest.h; sourceTree = "<group>"; };
+		B8F7DAFC1EF7614D00BD1AD5 /* SFWebServerRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFWebServerRequest.m; sourceTree = "<group>"; };
+		B8F7DAFE1EF766A900BD1AD5 /* udid.mobileconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = udid.mobileconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +85,7 @@
 				A23D6D6A1EF5825D0043603F /* AppDelegate.m */,
 				A23D6D6C1EF5825D0043603F /* ViewController.h */,
 				A23D6D6D1EF5825D0043603F /* ViewController.m */,
+				B8F7DAFE1EF766A900BD1AD5 /* udid.mobileconfig */,
 				A23D6D6F1EF5825D0043603F /* Main.storyboard */,
 				A23D6D721EF5825D0043603F /* Assets.xcassets */,
 				A23D6D741EF5825D0043603F /* LaunchScreen.storyboard */,
@@ -83,23 +98,41 @@
 		A23D6D7F1EF5826F0043603F /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
-				A23D6D801EF5826F0043603F /* CocoaAsyncSocket */,
+				B8F7DAF11EF7607C00BD1AD5 /* SFWebServer */,
+				B8F7DAC11EF75FBC00BD1AD5 /* CocoaAsyncSocket */,
 			);
 			name = Vendor;
 			path = "../../../../iOS-Debug-Database/SFDebugDB/Vendor";
 			sourceTree = "<group>";
 		};
-		A23D6D801EF5826F0043603F /* CocoaAsyncSocket */ = {
+		B8F7DAC11EF75FBC00BD1AD5 /* CocoaAsyncSocket */ = {
 			isa = PBXGroup;
 			children = (
-				A23D6D811EF5826F0043603F /* Documentation.html */,
-				A23D6D821EF5826F0043603F /* GCDAsyncUdpSocket.m */,
-				A23D6D831EF5826F0043603F /* GCDAsyncSocket.m */,
-				A23D6D841EF5826F0043603F /* GCDAsyncUdpSocket.h */,
-				A23D6D851EF5826F0043603F /* GCDAsyncSocket.h */,
+				B8F7DAC21EF75FBC00BD1AD5 /* Documentation.html */,
+				B8F7DAC31EF75FBC00BD1AD5 /* GCDAsyncSocket.h */,
+				B8F7DAC41EF75FBC00BD1AD5 /* GCDAsyncSocket.m */,
+				B8F7DAC51EF75FBC00BD1AD5 /* GCDAsyncUdpSocket.h */,
+				B8F7DAC61EF75FBC00BD1AD5 /* GCDAsyncUdpSocket.m */,
 			);
-			path = CocoaAsyncSocket;
-			sourceTree = "<group>";
+			name = CocoaAsyncSocket;
+			path = "iOS-UDID-Safari/Vendor/CocoaAsyncSocket";
+			sourceTree = SOURCE_ROOT;
+		};
+		B8F7DAF11EF7607C00BD1AD5 /* SFWebServer */ = {
+			isa = PBXGroup;
+			children = (
+				B8F7DAF21EF760C000BD1AD5 /* SFWebServer.h */,
+				B8F7DAF31EF760C000BD1AD5 /* SFWebServer.m */,
+				B8F7DAF51EF7611300BD1AD5 /* SFWebServerRouter.h */,
+				B8F7DAF61EF7611300BD1AD5 /* SFWebServerRouter.m */,
+				B8F7DAF81EF7614300BD1AD5 /* SFWebServerRespone.h */,
+				B8F7DAF91EF7614300BD1AD5 /* SFWebServerRespone.m */,
+				B8F7DAFB1EF7614D00BD1AD5 /* SFWebServerRequest.h */,
+				B8F7DAFC1EF7614D00BD1AD5 /* SFWebServerRequest.m */,
+			);
+			name = SFWebServer;
+			path = "iOS-UDID-Safari/Vendor/SFWebServer";
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -159,9 +192,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A23D6D761EF5825D0043603F /* LaunchScreen.storyboard in Resources */,
+				B8F7DAFF1EF766A900BD1AD5 /* udid.mobileconfig in Resources */,
 				A23D6D731EF5825D0043603F /* Assets.xcassets in Resources */,
 				A23D6D711EF5825D0043603F /* Main.storyboard in Resources */,
-				A23D6D861EF5826F0043603F /* Documentation.html in Resources */,
+				B8F7DAC71EF75FBC00BD1AD5 /* Documentation.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,11 +206,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A23D6D871EF5826F0043603F /* GCDAsyncUdpSocket.m in Sources */,
-				A23D6D881EF5826F0043603F /* GCDAsyncSocket.m in Sources */,
+				B8F7DAFD1EF7614D00BD1AD5 /* SFWebServerRequest.m in Sources */,
+				B8F7DAF41EF760C000BD1AD5 /* SFWebServer.m in Sources */,
+				B8F7DAFA1EF7614300BD1AD5 /* SFWebServerRespone.m in Sources */,
+				B8F7DAC81EF75FBC00BD1AD5 /* GCDAsyncSocket.m in Sources */,
+				B8F7DAC91EF75FBC00BD1AD5 /* GCDAsyncUdpSocket.m in Sources */,
 				A23D6D6E1EF5825D0043603F /* ViewController.m in Sources */,
 				A23D6D791EF5825D0043603F /* main.m in Sources */,
 				A23D6D6B1EF5825D0043603F /* AppDelegate.m in Sources */,
+				B8F7DAF71EF7611300BD1AD5 /* SFWebServerRouter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,7 +286,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -295,7 +333,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -306,9 +344,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6585UJ5TQ9;
 				INFOPLIST_FILE = "iOS-UDID-Safari/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.skyfox.iOS-UDID-Safari";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.skyfox.iOS-UDID-Safari-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -318,9 +358,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6585UJ5TQ9;
 				INFOPLIST_FILE = "iOS-UDID-Safari/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.skyfox.iOS-UDID-Safari";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.skyfox.iOS-UDID-Safari-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -345,6 +387,7 @@
 				A23D6D7E1EF5825D0043603F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
