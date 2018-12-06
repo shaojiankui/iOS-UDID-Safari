@@ -8,6 +8,8 @@
             <string>http://localhost:55555/receive.do</string>
             <key>DeviceAttributes</key>
             <array>
+                <string>SERIAL</string>
+                <string>MAC_ADDRESS_EN0</string>
                 <string>UDID</string>
                 <string>IMEI</string>
                 <string>ICCID</string>
