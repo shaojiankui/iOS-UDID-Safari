@@ -6,9 +6,11 @@
         <key>PayloadContent</key>
         <dict>
             <key>URL</key>
-            <string>http://192.168.66.108:8080/receive.do</string> <!--接收数据的接口地址-->
+            <string>http://192.168.203.123:8080/UDID/UDIDAction</string> <!--接收数据的接口地址-->
             <key>DeviceAttributes</key>
             <array>
+                <string>SERIAL</string>
+                <string>MAC_ADDRESS_EN0</string>
                 <string>UDID</string>
                 <string>IMEI</string>
                 <string>ICCID</string>
@@ -17,7 +19,7 @@
             </array>
         </dict>
         <key>PayloadOrganization</key>
-        <string>http://192.168.1.106:8080</string>  <!--组织名称-->
+        <string>http://192.168.203.123:8080</string>  <!--组织名称-->
         <key>PayloadDisplayName</key>
         <string>查询设备UDID</string>  <!--安装时显示的标题-->
         <key>PayloadVersion</key>
