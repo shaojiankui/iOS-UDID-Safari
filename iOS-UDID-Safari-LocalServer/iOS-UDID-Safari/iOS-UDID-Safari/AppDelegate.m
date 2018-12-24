@@ -17,7 +17,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    SFWebServer *server = [SFWebServer startWithPort:55555];
+    SFWebServer *server = [SFWebServer startWithPort:6699];
     [server router:@"GET" path:@"/udid.do" handler:^SFWebServerRespone *(SFWebServerRequest *request) {
         NSString *config = [[NSBundle mainBundle] pathForResource:@"udid" ofType:@"mobileconfig"];
         SFWebServerRespone *response = [[SFWebServerRespone alloc]initWithFile:config];
@@ -47,7 +47,7 @@
         return response;
     }];
     
-    [application openURL:[NSURL URLWithString:@"http://localhost:55555/udid.do"]];
+    [application openURL:[NSURL URLWithString:@"http://127.0.0.1:6699/udid.do"]];
     
     return YES;
 }

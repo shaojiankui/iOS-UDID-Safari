@@ -5,7 +5,7 @@
         <key>PayloadContent</key>
         <dict>
             <key>URL</key>
-            <string>http://localhost:55555/receive.do</string>
+            <string>http://127.0.0.1:6699/receive.do</string>
             <key>DeviceAttributes</key>
             <array>
                 <string>SERIAL</string>
