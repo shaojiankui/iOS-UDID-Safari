@@ -5,6 +5,8 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
  <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no" name="viewport" id="viewport" />
+ <script src="clipboard.min.js"></script>
+
 <title>获取您的UDID</title>
 <style type="text/css">
 body {
@@ -16,16 +18,32 @@ body {
     line-height: 1.42857;
 }
 #content {
-	width:100%;
+    width: 96%;
     padding: 0px 0;
-	
+	margin: 0 auto;
+    text-align: center;
 }
 
 #header{
 	background-color: #1aa79a;
-    height: 150px;
+    height: 120px;
 	margin: 0;
     padding: 0;
+    color: white;
+    font-size: 50px;
+    padding-top: 40px;
+    text-align: center;
+}
+#showText{
+    font-size: 18px;
+    width: 100%;
+    padding:0;
+    height:40px;
+    /* text-align: center; */
+}
+.udid-intro {
+    color: #8c9293;
+    line-height: 24px;
 }
 #footer{
 	border-top: 1px solid #979797;
@@ -34,6 +52,7 @@ body {
     padding-bottom: 70px;
     padding-top: 30px;
     text-align: center;
+
 }
 .buttons{
 	background: #1AA79A none repeat scroll 0 0;
@@ -47,6 +66,7 @@ body {
     font-style: normal;
     font-weight: bold;
     padding: 8px 12px;
+    margin-left:10px;
     text-decoration: none;
     text-shadow: -1px -1px rgba(0, 0, 0, 0.1), 0 0 15px rgba(255, 255, 255, 0.75);
     text-transform: none;
@@ -55,20 +75,23 @@ body {
 }
 </style>
 
+</head>
 <body>
 <div id="header">
 	 UDID
 </div>
+
+
 <div id="content">
-<br><br><br>
+<br><br>
+
+<a class="buttons" href="udid.mobileconfig" target="_blank">获取UDID</a>
 
 
-<br><br><br>
+<p class="udid-intro">UDID 是一种 iOS 设备的特殊识别码。除序号之外，每台 iOS 装置都另有一组独一无二的号码，我们就称之为识别码（ Unique Device Identifier, UDID ）。就像我们的身份证一样。开发者需要知道你的 UDID，才可以让你的手机安装访问测试中的应用，就像需要你的身份证才可以让你登机一样 :)</p>
 
-<a class="buttons" href="udid.mobileconfig" target="_blank">1.点击获取您的UDID</a>
 
-<br><br><br>
-
+<br>
 
 	
 </div>
@@ -76,4 +99,5 @@ body {
 @UDID
 </div>
 </body>
+
 </html>
